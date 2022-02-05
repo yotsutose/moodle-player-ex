@@ -1,0 +1,13 @@
+{
+  "name": "Moodle Player",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "My Chrome Extension for moodle-pleyer",
+  "content_scripts": [{
+    "matches": ["https://cms6.ict.nitech.ac.jp/moodle38a/mod/scorm/player.php"],
+    "js": [
+      "jquery-3.6.0.slim.min.js",
+      "content.js"
+    ]
+  }]
+}
